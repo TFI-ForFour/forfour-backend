@@ -1,7 +1,7 @@
 ---
-name: Feat
+name: feat
 about: What topic do you practice?
-title: "[Feat] [Issue name]"
+title: "[feat] [Issue name]"
 labels: ''
 assignees: ''
 
