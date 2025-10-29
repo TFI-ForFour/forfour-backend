@@ -34,10 +34,15 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 	// logging
 	implementation("io.github.microutils:kotlin-logging:1.4.3")
+
+	// Data Jpa
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+
+	// MySQL
+	runtimeOnly("com.mysql:mysql-connector-j")
 }
 
 kotlin {
